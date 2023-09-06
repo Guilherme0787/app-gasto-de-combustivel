@@ -48,7 +48,7 @@ export default function App() {
           </View>
         </View>
         <View style={{flexDirection:'row',justifyContent:'center',alignItems:'center'}}>
-          <Pressable style={styles.botao}  onPress={() => executar(valorLitro,quantidade,km)}><Text style={styles.texto}>Buscar valor</Text></Pressable>
+          <Pressable style={styles.botao}  onPress={() => executar(valorLitro,quantidade,km)}><Text style={styles.texto}>Calcular</Text></Pressable>
         </View>
         <View>
           <Text style={styles.texto}>{`Resultado: ${resultado}`}</Text>
